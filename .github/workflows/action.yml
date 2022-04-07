@@ -24,7 +24,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY2
     steps:
       - name: Working
-        uses: WizardJerry/zju-ncov-hitcarder@master
+        uses: WizardJerry/ZJU-mCov-Hitcarder@master
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
